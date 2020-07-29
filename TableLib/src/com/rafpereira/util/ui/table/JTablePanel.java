@@ -348,8 +348,8 @@ public abstract class JTablePanel<T> extends JPanel implements FilterableCompone
 	 * Define the description label for the quantity.
 	 * @param description Label for the description.
 	 */
-	public void setLabelQuantityDescription(JLabel description) {
-		labelQuantityDescription = description;
+	public void seQuantityDescription(String description) {
+		labelQuantityDescription.setText(description);
 	}
 	
 	/**
