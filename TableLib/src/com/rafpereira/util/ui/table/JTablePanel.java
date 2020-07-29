@@ -128,7 +128,7 @@ public abstract class JTablePanel<T> extends JPanel implements FilterableCompone
 	/**
 	 * Default formatter for currency values (without the currency symbol).
 	 */
-	protected static NumberFormat currencyFormat = new DecimalFormat();
+	protected static NumberFormat currencyFormat = NumberFormat.getCurrencyInstance();
 
 	/**
 	 * Default formatter for date values.
