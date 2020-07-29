@@ -309,7 +309,7 @@ public abstract class JTablePanel<T> extends JPanel implements FilterableCompone
 	 * Gets the table component.
 	 * @return Table component.
 	 */
-	private JTable getTable() {
+	protected JTable getTable() {
 		if (table == null) {
 			table = new JTable(getTableModel());
 			configureView();
