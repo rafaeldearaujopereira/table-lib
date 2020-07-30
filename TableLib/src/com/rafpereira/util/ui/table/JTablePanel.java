@@ -145,6 +145,7 @@ public abstract class JTablePanel<T> extends JPanel implements FilterableCompone
 
 		DecimalFormatSymbols dfs = ((DecimalFormat) currencyFormat).getDecimalFormatSymbols();
 		dfs.setCurrencySymbol("");
+		((DecimalFormat) currencyFormat).setDecimalFormatSymbols(dfs);
 	}
 	
 	/**

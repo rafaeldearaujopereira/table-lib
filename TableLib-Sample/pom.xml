@@ -29,7 +29,7 @@
   		<dependency>
   			<groupId>com.rafpereira</groupId>
   			<artifactId>table-lib</artifactId>
-  			<version>1.0.3</version>
+  			<version>1.0.5</version>
   		</dependency>
   	</dependencies>
   </dependencyManagement>  
