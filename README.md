@@ -1,2 +1,2 @@
 # table-lib
-A simpler "scroll panel + table" abstration
+A simpler "scroll panel + table" abstraction
